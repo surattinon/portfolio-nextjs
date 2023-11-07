@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () => {
   return (
     <nav className = 'bg-black'>
-      <div className = " flex flex-wrap items-center justify-between mx-auto py-4 px-8 ">
+      <div className = "flex flex-wrap items-center justify-between mx-auto py-4 px-8 ">
         <Link href = {"/"} className = "text-5xl text-white font-semibold">
           BASU
         </Link> 
