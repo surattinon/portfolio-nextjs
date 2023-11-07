@@ -7,8 +7,8 @@ const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-5">
-          <div className="lg:width-[800px] md:width-[300px]">
+        <div className="h-[600px] col-span-5">
+          <div className="place-self-center lg:width-[800px] md:width-[300px]">
             <Image
               src="/images/web-logo-header.png"
               alt="basu logo"
@@ -19,7 +19,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="col-span-7 place-self-center body-font lg:text-center text-left">
+        <div className=" col-span-7 place-self-center body-font lg:text-center text-left">
           <h1 className="text-white mb-4 text-4xl md:text-7xl font-light ">
             <TypeAnimation
               sequence={[
