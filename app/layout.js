@@ -4,7 +4,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'BASU INFO',
+  title: 'BASU > INFO',
   description: 'This is my info website.',
 }
 
