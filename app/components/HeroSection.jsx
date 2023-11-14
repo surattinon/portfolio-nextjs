@@ -20,7 +20,7 @@ const HeroSection = () => {
         </div>
 
         <div className=" col-span-7 place-self-center body-font lg:text-center text-left">
-          <h1 className="text-white mb-4 text-4xl md:text-7xl font-light ">
+          <h1 className="text-white mb-4 text-4xl md:text-6xl font-light ">
             <TypeAnimation
               sequence={[
                 '<INFO />',
